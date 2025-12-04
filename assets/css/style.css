@@ -1,0 +1,88 @@
+cgit-wp-rest-api-restrictions {
+    //
+}
+
+.cgit-wp-rest-api-restrictions-color--danger {
+    color: #dc3545;
+    background: #fde0e0;
+}
+
+.cgit-wp-rest-api-restrictions-color--warning {
+    color: #9d6115;
+    background: #efe0cc;
+}
+
+.cgit-wp-rest-api-restrictions-color--neutral {
+    color: #383838;
+    background: #d2d2d2;
+}
+
+.cgit-wp-rest-api-restrictions-color--success {
+    color: #1d792e;
+    background: #deefcc;
+}
+
+.cgit-wp-rest-api-restrictions__list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.cgit-wp-rest-api-restrictions code {
+    display: inline-block;
+    margin: 2px 1px;
+}
+
+.cgit-wp-rest-api-restrictions__mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.cgit-wp-rest-api-restrictions__col {
+    width: 100%;
+}
+
+@media (min-width: 1250px) {
+    .cgit-wp-rest-api-restrictions__col-left {
+        width: 49%;
+    }
+
+    .cgit-wp-rest-api-restrictions__col-right {
+        width: 49%;
+        margin-left: 2%;
+    }
+}
+
+.cgit-wp-rest-api-restrictions__notification {
+    padding: 5px 10px 5px 45px;
+    background-position: 10px center;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.cgit-wp-rest-api-restrictions__notification.cgit-wp-rest-api-restrictions-color--success {
+    background-image: url(../images/active.svg);
+}
+
+.cgit-wp-rest-api-restrictions__notification.cgit-wp-rest-api-restrictions-color--warning {
+    background-image: url(../images/alert.svg);
+}
+
+.cgit-wp-rest-api-restrictions__tag {
+    text-transform: uppercase;
+    font-size: 11px;
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.cgit-wp-rest-api-restrictions__tag--active {
+    background: #1d792e;
+    color: #deefcc;
+}
+
+.cgit-wp-rest-api-restrictions__tag--inactive {
+    color: #efe0cc;
+    background: #9d6115;
+}
+
