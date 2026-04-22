@@ -52,9 +52,6 @@ final class Callback
         $context = $request->get_param('context');
         $url_id  = isset($request->get_url_params()['id']) ? intval($request->get_url_params()['id']) : 0;
 
-        error_log('Request for: '.$url_id);
-        error_log('Current ID: '.get_current_user_id());
-
         // If the user is requesting their own user data with context=edit, allow it
         if ($context === 'edit' && $url_id === get_current_user_id()){
             return null;
